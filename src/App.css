@@ -1,7 +1,6 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -23,7 +22,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +34,9 @@
     transform: rotate(360deg);
   }
 }
+nav{text-decoration: none;float: inline-end;}
+nav ul li{
+  float: left;margin-left: 20px;list-style-type: none;overflow: hidden;text-decoration: none;
+}
+.redClass{color: white;background-color: red;}
+.pinkClass{color: white;background-color:pink;}
