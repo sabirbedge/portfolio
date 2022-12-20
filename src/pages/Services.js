@@ -25,7 +25,7 @@ const Services=()=>{
               <div className="service-content">
                 <h1 className="s-title">Responsive Web Design</h1>
                 <h5 className="s-description text-center"><br></br>
-                  We provide responsive and single page static websites for your business.
+                  I provide responsive and single page static websites for your business.
                 </h5>
               </div>
             </div>
@@ -38,7 +38,7 @@ const Services=()=>{
               <div className="service-content">
                 <h1 className="s-title">Responsive Web Application Development</h1>
                 <h5 className="s-description text-center"><br></br>
-                We provide responsive and single page dynamic web applications for your business.
+                I provide responsive and single page dynamic web applications for your business.
                 </h5>
               </div>
             </div>
@@ -52,7 +52,7 @@ const Services=()=>{
                 <h1 className="s-title">Desktop Application Development</h1>
                 <h5 className="s-description text-center">
                 <br></br>
-                We provide desktop applications for your business.
+                I provide desktop applications for your business.
                 </h5>
               </div>
             </div>
@@ -65,7 +65,7 @@ const Services=()=>{
               <div className="service-content">
                 <h1 className="s-title">Software Support</h1>
                 <h5 className="s-description text-center"><br></br>
-                We provide support for software that we have delivered to customer.
+                I provide support for software that i have delivered to customer.
                 </h5>
               </div>
             </div>
@@ -78,7 +78,7 @@ const Services=()=>{
               <div className="service-content">
                 <h1 className="s-title">Graphic Design</h1>
                 <h5 className="s-description text-center"><br></br>
-                We design graphic for your business.
+                I design graphic for your business.
                 </h5>
               </div>
             </div>
@@ -91,7 +91,7 @@ const Services=()=>{
               <div className="service-content">
                 <h1 className="s-title">Marketing Services</h1>
                 <h5 className="s-description text-center"><br></br>
-                  We provide marketing services.
+                  I provide marketing services.
                 </h5>
               </div>
             </div>

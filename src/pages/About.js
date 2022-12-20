@@ -21,7 +21,7 @@ const About=()=>{
                   <div className="row">
                     <div className="col-sm-6 col-md-5">
                       <div className="about-img">
-                        <img src="assets/img/myimg.jpeg" className="img-fluid rounded b-shadow-a" alt=""/>
+                        <img src="assets/img/myimg.jpeg" className="img-fluid rounded b-shadow-a img-responsive" alt=""/>
                       </div>
                     </div>
                     <div className="col-sm-6 col-md-7">
@@ -83,7 +83,7 @@ const About=()=>{
                     <h4 className="">
                       Hii, <br></br>
                       I am Sabir Bedge from Miraj,Maharashtra.
-                      I am currently pursuing B.Tech in Information Technology at Government College Of Engineering,Karad.
+                      I am currently pursuing bachelor degree(B.Tech) in Information Technology at Government College Of Engineering,Karad.
                     </h4><br></br>
                     <h4 className="">
                     I am Full Stack Web Developer and Freelancer.

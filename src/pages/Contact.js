@@ -28,22 +28,22 @@ const Contact=()=>{
                         <div className="row">
                           <div className="col-md-12 mb-3">
                             <div className="form-group">
-                              <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required/>
+                              <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required autoComplete="off"/>
                             </div>
                           </div>
                           <div className="col-md-12 mb-3">
                             <div className="form-group">
-                              <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required/>
+                              <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required autoComplete="off"/>
                             </div>
                           </div>
                           <div className="col-md-12 mb-3">
                             <div className="form-group">
-                              <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required/>
+                              <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required autoComplete="off"/>
                             </div>
                           </div>
                           <div className="col-md-12">
                             <div className="form-group">
-                              <textarea className="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                              <textarea className="form-control" name="message" rows="5" placeholder="Message" required autoComplete="off"></textarea>
                             </div>
                           </div>
                           <div className="col-md-12 text-center my-3">
@@ -52,7 +52,7 @@ const Contact=()=>{
                             <div className="sent-message"></div>
                           </div>
                           <div className="col-md-12 text-center">
-                            <button type="button" className="button button-a button-big button-rouded" id='btn'><strong>Send Message</strong></button>
+                            <input type="button" className="btn button-rouded text-white btn-lg" style={{backgroundColor:"#0078ff"}} id='btn' value="Send Message"/>
                           </div>
                         </div>
                         </div>
@@ -81,7 +81,7 @@ const Contact=()=>{
                         <li><a href="https://www.linkedin.com/in/sabir-bedge-2a8b971ba"><span className="ico-circle"><i className="bi bi-linkedin"></i></span></a></li>
                       </ul>
                       <br></br><br></br>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d567.6480382271021!2d74.67280046220586!3d16.84293731368468!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe47d7e41515d27cb!2zMTbCsDUwJzM0LjkiTiA3NMKwNDAnMjMuMSJF!5e0!3m2!1sen!2sin!4v1671514372735!5m2!1sen!2sin" width="400" height="300" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d567.6480382271021!2d74.67280046220586!3d16.84293731368468!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe47d7e41515d27cb!2zMTbCsDUwJzM0LjkiTiA3NMKwNDAnMjMuMSJF!5e0!3m2!1sen!2sin!4v1671514372735!5m2!1sen!2sin" width="400" height="300" style={{border:"2px solid #0078ff"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     
                   </div>

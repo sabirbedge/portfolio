@@ -1,11 +1,11 @@
-import { Link, Outlet } from "react-router-dom"
+import { Link, NavLink, Outlet } from "react-router-dom"
 //import Reac tfrom 'module';
 const Layout=()=>{
     return(
         <>
         <header id="header" className="fixed-top" style={{backgroundColor:'black',height:'80px'}}>
           <div className="container d-flex align-items-center justify-content-between">
-            <h1 className="logo text-white mb-4">Sabir Bedge</h1>
+            <h1 className="logo text-white mb-4"><NavLink to='/'>Sabir Bedge </NavLink></h1>
             <nav id="navbar" className="navbar">
               <ul>
                 <li> <Link to='/'  className="nav-link scrollto active">Home</Link> </li>
@@ -17,7 +17,6 @@ const Layout=()=>{
             </nav>
           </div>
         </header> 
-       
     <Outlet/>
         </>
             
